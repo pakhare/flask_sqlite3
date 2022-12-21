@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add Student</title>
+    <style type="text/css">input:focus {background-color: lightgray;}
+    </style>
+</head>
+<body>
+    <h1>Add a New Student</h1>
+    <form action="/student/add" method="POST" id="create-form">
+        <div>
+            <label>Name:</label>
+            <input type="text" name="name" required />
+        </div>
+        <br>
+        <div>
+            <label>Email:</label>
+            <input type="text" name="email" required/>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

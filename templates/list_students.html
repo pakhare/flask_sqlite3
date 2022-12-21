@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<table border = 2>
+	 <thead>
+	    <td>Name</td>
+	    <td>Email</td>
+	 </thead>
+	 
+	 {% for row in rows %}
+	    <tr>
+	       <td>{{row["name"]}}</td>
+	       <td>{{row["email"]}}</td>
+	    </tr>
+	 {% endfor %}
+	</table>
+
+	<a href = "/">Go back</a>
+</body>
+</html>
